@@ -12,7 +12,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 * Nome completo do aluno 1
 * Diego chagas de souza
-* Nome completo do aluno 3
+* Fernando Marques e Marques
 * Nome completo do aluno 4
 
 ## Orientador
