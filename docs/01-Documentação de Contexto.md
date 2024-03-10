@@ -1,46 +1,51 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A cada dia, o controle financeiro se torna mais crucial na vida das pessoas. Manter informações precisas e atualizadas sobre suas finanças é essencial para navegar pelo cenário de incertezas econômicas.
+
+Paralelamente, nota-se uma crescente necessidade de compartilhar despesas de forma eficiente. O aplicativo de finanças visa unir pessoas, permitindo a criação de grupos de custos para compartilhar responsabilidades, como contas de luz, água e aluguel. Essa abordagem colaborativa promove o equilíbrio financeiro e simplifica a gestão compartilhada.
+
+Além disso, é reconhecido a importância de controlar gastos com cartões de crédito e transações em dinheiro físico. Com o site, é possível registrar todas as transações, independentemente do método de pagamento, proporcionando uma visão abrangente de suas despesas.
+
+Mantenha-se informado sobre datas de vencimento, visualize relatórios detalhados de seus gastos e receba notificações personalizadas para garantir que suas finanças estejam sempre sob controle. O objetivo é oferecer uma experiência financeira completa, transparente e adaptada às necessidades individuais de cada usuário.
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+A iniciativa do projeto visa abordar a dificuldade enfrentada pelos usuários em obter informações financeiras de maneira organizada e colaborativa. Muitas vezes, a falta de ferramentas adequadas dificulta o controle de boletos, a partilha eficiente de despesas em grupos e o acompanhamento detalhado de gastos com cartões de crédito e dinheiro físico. A ausência de uma solução abrangente pode resultar em desafios na gestão financeira individual e na colaboração eficaz em despesas compartilhadas, motivando a busca por uma plataforma que simplifique e aprimore esses processos.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Objetivos
+O propósito fundamental do projeto é oferecer aos usuários uma plataforma de finanças abrangente e intuitiva, visando simplificar e aprimorar o controle financeiro pessoal e colaborativo. Busca-se fornecer ferramentas que permitam aos usuários:
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Controle de Boletos:
+Gerenciar e controlar datas de pagamento de boletos de forma eficiente, evitando atrasos e otimizando o planejamento financeiro.
+
+Grupos de Custos:
+Facilitar a criação e gestão de grupos de custos, permitindo o compartilhamento equitativo de despesas entre amigos, familiares ou colegas de casa.
+
+Cartões de Crédito:
+Registrar e monitorar gastos em cartões de crédito, oferecendo uma visão clara do histórico de transações e auxiliando no gerenciamento responsável do crédito.
+
+Gastos em Dinheiro Físico:
+Registrar despesas realizadas com dinheiro físico, assegurando que todas as transações sejam consideradas no panorama financeiro global.
+
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A implementação de um site de finanças robusto se revela como uma iniciativa altamente relevante nos dias atuais, considerando diversos desafios enfrentados pelos usuários na gestão de suas finanças. O atual cenário demanda soluções inovadoras para problemas recorrentes, como a falta de controle efetivo sobre boletos e despesas compartilhadas. A complexidade do mundo financeiro exige ferramentas que ofereçam simplicidade e transparência, atendendo às necessidades práticas dos usuários.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Nesse contexto, um site que proporcione uma visão abrangente e organizada das obrigações financeiras, ao mesmo tempo em que simplifica o compartilhamento de despesas em grupos colaborativos, surge como uma resposta direta a uma demanda latente. A possibilidade de registrar e monitorar gastos com cartões de crédito e dinheiro físico adiciona uma camada de controle que muitas vezes é negligenciada por outras plataformas.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Além disso, a transparência nas transações financeiras, uma característica essencial do projeto, se destaca como um diferencial significativo. Em um momento em que a confiança nas informações é crucial, oferecer uma plataforma que não apenas gerencia finanças, mas também fornece insights claros e confiáveis, contribui para uma experiência financeira mais informada e tranquila.
+
+
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O público-alvo do site de finanças é caracterizado por indivíduos e grupos que buscam uma abordagem prática e integrada para gerenciar suas finanças de maneira eficiente e colaborativa.O projeto é especialmente direcionado a pessoas que enfrentam desafios no controle de boletos e despesas compartilhadas, oferecendo soluções que simplificam esses processos.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+A funcionalidade de grupos de custos atende a uma demanda específica de usuários que compartilham despesas com familiares, colegas de casa ou amigos, permitindo uma colaboração financeira mais eficaz. Esta característica é particularmente relevante para aqueles que procuram uma maneira simplificada de organizar e dividir despesas, promovendo uma gestão financeira mais harmoniosa em ambientes compartilhados.
