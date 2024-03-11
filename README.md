@@ -14,6 +14,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Diego chagas de souza
 * Fernando Marques e Marques
 * Vinícius Vieira Silva
+* Enzo Gomes Azevedo
 
 ## Orientador
 
