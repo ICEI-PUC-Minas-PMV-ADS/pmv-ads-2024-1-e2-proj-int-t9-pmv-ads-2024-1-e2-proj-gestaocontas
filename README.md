@@ -15,6 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Fernando Marques e Marques
 * Vinícius Vieira Silva
 * Enzo Gomes Azevedo
+* Rodrigo Araújo Ribeiro
 
 ## Orientador
 
