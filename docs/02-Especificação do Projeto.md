@@ -7,21 +7,46 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
+## Amanda Alves
+ 	Idade: 41<br/>
+Ocupação: advogada, é sócia de um pequeno escritório que atua em processos de fusões de empresas.<br/>
+Metas:<br/>
+●	Comprar uma casa<br/>
+Motivações:<br/>
+●	Deseja controlar melhor seus gastos<br/>
+●	Saber quanto gasta com dinheiro físico<br/>
+Frustrações:<br/>
+●	Não consegue ter uma boa saúde financeira<br/>
+Características principais:<br/>
+●	Não gosta de fazer comida, usuária frequente de apps de delivery.<br/>
+●	Se o banco existe, ela tem conta e cartão.<br/>
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+## Carlos Gomes<br/>
+Idade: 41<br/>
+Ocupação: Engenheiro de Produção, funcionário de uma multinacional do setor da indústria automotiva<br/>
+Metas:<br/>
+●	Sobrar mais dinheiro para viajar com a família.<br/>
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Motivações:<br/>
+●	Deseja melhorar a relação financeira com sua esposa.<br/>
+●	Gostaria de controlar melhor seus gastos no cartão de crédito.<br/>
+●	Parar de pagar contas com multa<br/>
+Frustrações:<br/>
+●	Paga boa parte das contas da casa sozinho, por se perder em prazos<br/>
+●	Se assusta todos os meses com seus gastos no cartão<br/>
+Características principais:<br/>
+●	Desorganizado.<br/>
+●	Não consegue se expressar ou pedir ajuda financeira corretamente.<br/>
 
+
+
+
+
+
+
+
+ 	
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
