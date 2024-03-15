@@ -8,7 +8,8 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 ## Amanda Alves
- 	Idade: 41<br/>
+
+  Idade:41<br>
 Ocupação: advogada, é sócia de um pequeno escritório que atua em processos de fusões de empresas.<br/>
 Metas:<br/>
 ●	Comprar uma casa<br/>
