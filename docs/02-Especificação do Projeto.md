@@ -53,17 +53,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Amanda Alves  |   visualizar o quanto gasta com dinheiro físico mensalmente       |    tomar ciência do quanto ela gasta sem perceber         |
+|  Amanda Alves     | saber de uma maneira fácil como estão seus gastos em todos os seus cartões.                 | ter um maior controle das suas finanças. |
+|Carlos Gomes |conseguir compartilhar suas contas com sua esposa|não ter que arcar com todos os custos sozinho.|
+|Carlos Gomes|ver as datas e local onde consegue emitir e pagar seus boletos.|não pagar mais multas com contas atrasadas.|
+|Amanda Alves|perceber qual cartão ela utiliza mais e qual utiliza menos.|diminuir a quantidade cartões para ter uma melhor relação com um banco em específico.|
+|Carlos	Gomes	/ Amanda Alves|descobrir com oque gasta mais.|	ter um maior controle das suas finanças.|
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
