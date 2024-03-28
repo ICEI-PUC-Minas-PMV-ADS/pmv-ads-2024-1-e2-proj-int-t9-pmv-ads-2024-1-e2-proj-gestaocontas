@@ -15,6 +15,9 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 
 ## Wireframes
 
+### Wireframe Interativo
+[Link](https://www.figma.com/proto/uJWCiBKyIEy04oaIVkSmN5/Banco?page-id=0%3A1&type=design&node-id=11-15&viewport=302%2C653%2C0.33&t=XbfffRLAR91wwWeB-1&scaling=min-zoom&starting-point-node-id=11%3A15&mode=design) para acessar o protótipo interativo
+
 ### Login
 <a href="https://postimg.cc/YhbF6jFq" target="_blank"><img src="https://i.postimg.cc/Z5hLhdK3/Captura-de-Tela-2024-03-28-a-s-18-55-03.png" alt="Captura-de-Tela-2024-03-28-a-s-18-55-03"/></a>
 
