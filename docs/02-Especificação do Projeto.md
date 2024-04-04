@@ -101,5 +101,5 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-![Captura de tela 2024-03-15 204050](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t9-pmv-ads-2024-1-e2-proj-gestaocontas/assets/145507947/d6ea1c5f-ea02-45e3-b83e-fcbae9ef8516)
+![Captura de tela 2024-03-15 204050](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t9-pmv-ads-2024-1-e2-proj-gestaocontas/blob/main/docs/img/Casos%20de%20uso.jpg)
 
