@@ -35,6 +35,24 @@ Características principais:<br/>
 ●	Desorganizado.<br/>
 ●	Não consegue se expressar ou pedir ajuda financeira corretamente.<br/>
 
+## Maria Silva
+
+  Idade:35<br>
+Ocupação: Auxiliar administrativa, trabalha com Freelancer por ter perdido o emprego durante a pandemia<br/>
+Metas:<br/>
+●	Pagar dividas acumuladas e começar a economizar para emergências e objetivos futuros.<br/>
+Motivações:<br/>
+●	Renda instável como freelancer.<br/>
+●	Aprender a gerenciar melhor sua renda e despesas mensais.<br/>
+●	Entender mais sobre investimentos e encontrar maneiras de fazer seu dinheiro crescer de forma segura.  <br/>
+Frustrações:<br/>
+● Dívidas acumuladas devido a contas não pagas durante a fase de desemprego.<br/>
+● Dificuldade em economizar e planejar o orçamento mensal de forma eficaz.<br/>
+● Falta de conhecimento sobre investimentos e como fazer o dinheiro render.<br/>
+Características principais:<br/>
+● Introvertida.<br/>
+● Esquece de coisas importantes.<br/>
+
 
 
 
