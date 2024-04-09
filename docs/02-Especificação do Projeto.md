@@ -8,11 +8,14 @@
 Ocupação: advogada, é sócia de um pequeno escritório que atua em processos de fusões de empresas.<br/>
 Metas:<br/>
 ●	Comprar uma casa<br/>
+
 Motivações:<br/>
 ●	Deseja controlar melhor seus gastos<br/>
 ●	Saber quanto gasta com dinheiro físico<br/>
+
 Frustrações:<br/>
 ●	Não consegue ter uma boa saúde financeira<br/>
+
 Características principais:<br/>
 ●	Não gosta de fazer comida, usuária frequente de apps de delivery.<br/>
 ●	Se o banco existe, ela tem conta e cartão.<br/>
@@ -28,9 +31,11 @@ Motivações:<br/>
 ●	Deseja melhorar a relação financeira com sua esposa.<br/>
 ●	Gostaria de controlar melhor seus gastos no cartão de crédito.<br/>
 ●	Parar de pagar contas com multa<br/>
+
 Frustrações:<br/>
 ●	Paga boa parte das contas da casa sozinho, por se perder em prazos<br/>
 ●	Se assusta todos os meses com seus gastos no cartão<br/>
+
 Características principais:<br/>
 ●	Desorganizado.<br/>
 ●	Não consegue se expressar ou pedir ajuda financeira corretamente.<br/>
@@ -40,14 +45,17 @@ Características principais:<br/>
 Ocupação: Auxiliar administrativa, trabalha com Freelancer por ter perdido o emprego durante a pandemia<br/>
 Metas:<br/>
 ●	Pagar dividas acumuladas e começar a economizar para emergências e objetivos futuros.<br/>
+
 Motivações:<br/>
 ●	Renda instável como freelancer.<br/>
 ●	Aprender a gerenciar melhor sua renda e despesas mensais.<br/>
 ●	Entender mais sobre investimentos e encontrar maneiras de fazer seu dinheiro crescer de forma segura.  <br/>
+
 Frustrações:<br/>
 ● Dívidas acumuladas devido a contas não pagas durante a fase de desemprego.<br/>
 ● Dificuldade em economizar e planejar o orçamento mensal de forma eficaz.<br/>
 ● Falta de conhecimento sobre investimentos e como fazer o dinheiro render.<br/>
+
 Características principais:<br/>
 ● Introvertida.<br/>
 ● Esquece de coisas importantes.<br/>
