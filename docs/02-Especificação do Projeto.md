@@ -62,6 +62,7 @@ Características principais:<br/>
 
 ## Ana Beatriz
 Idade: 22 anos<br>
+Ocupação: Estudante Universitária<br/>
 Metas:<br>
 ● Concluir a faculdade sem dívidas.<br>
 ● Economizar para um intercâmbio no próximo ano.<br>
@@ -80,6 +81,28 @@ Frustrações:<br>
 Características Principais:<br>
 ● Estudante universitária.<br>
 ● Curiosa e disposta a aprender sobre finanças.<br>
+
+##Carlos Augusto
+Idade: 35 anos.<br>
+Ocupação: Profissional Autônomo<br>
+Metas:<br>
+● Expandir seu negócio de consultoria.<br>
+● Investir em imóveis para renda passiva.<br>
+● Planejar a aposentadoria antecipada.<br>
+
+Motivações:<br>
+● Busca liberdade financeira e flexibilidade.<br>
+● Valoriza a autonomia e o controle sobre sua carreira.<br>
+● Quer construir riqueza a longo prazo.<br>
+
+Frustrações:<br>
+● Incerteza de renda como autônomo.<br>
+● Preocupação com impostos e burocracia.<br>
+● Dificuldade em equilibrar trabalho e vida pessoal.<br>
+
+Características Principais:<br>
+● Consultor autônomo.<br>
+● Determinado e disposto a correr riscos calculados.<br>
 
 
 
