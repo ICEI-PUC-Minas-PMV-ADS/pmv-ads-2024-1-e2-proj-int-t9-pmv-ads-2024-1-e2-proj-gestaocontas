@@ -82,7 +82,7 @@ Características Principais:<br>
 ● Estudante universitária.<br>
 ● Curiosa e disposta a aprender sobre finanças.<br>
 
-##Carlos Augusto
+## Carlos Augusto
 Idade: 35 anos.<br>
 Ocupação: Profissional Autônomo<br>
 Metas:<br>
