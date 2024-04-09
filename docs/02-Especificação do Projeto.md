@@ -36,7 +36,6 @@ Características principais:<br/>
 ●	Não consegue se expressar ou pedir ajuda financeira corretamente.<br/>
 
 ## Maria Silva
-
   Idade:35<br>
 Ocupação: Auxiliar administrativa, trabalha com Freelancer por ter perdido o emprego durante a pandemia<br/>
 Metas:<br/>
@@ -52,6 +51,32 @@ Frustrações:<br/>
 Características principais:<br/>
 ● Introvertida.<br/>
 ● Esquece de coisas importantes.<br/>
+
+## Ana Beatriz
+Idade: 22 anos<br>
+Metas:<br>
+● Concluir a faculdade sem dívidas.<br>
+● Economizar para um intercâmbio no próximo ano.<br>
+● Aprender a investir e construir um fundo de emergência.<br>
+
+Motivações:<br>
+● Busca independência financeira.<br>
+● Deseja evitar dívidas e juros.<br>
+● Quer aproveitar oportunidades de crescimento pessoal.<br>
+
+Frustrações:<br>
+● Lida com orçamento apertado devido às despesas estudantis.<br>
+● Fica ansiosa com a falta de controle sobre suas finanças.<br>
+● Acha difícil equilibrar estudos, trabalho e vida financeira.<br>
+
+Características Principais:<br>
+● Estudante universitária.<br>
+● Curiosa e disposta a aprender sobre finanças.<br>
+
+
+
+
+
 
 
 
