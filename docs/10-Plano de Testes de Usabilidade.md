@@ -1,15 +1,31 @@
 # Plano de Testes de Usabilidade
 
-Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
+ O teste de usabilidade será realizado entre os membros do projeto e terá como objetivo mensurar a qualidade dos resultados obtidos pelo usuário e a satisfação ao final do processo. O planejamento dos testes de usabilidade a serem realizados com usuários são descritos na Tabela a seguir.
 
-Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (em função dos requisitos levantados/implementados), dos critérios que serão utilizados para a seleção dos participantes, dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), das tarefas a serem executadas, dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), a ordem de execução das tarefas e das etapas da sessão de teste, recursos demandados, métricas coletadas etc.
+## 1. Registro de Conta
+- Testar se o usuário pode se registrar com sucesso.
+- Verificar se a validação de e-mail está funcionando corretamente.
+- Testar a força da senha durante o registro.
 
-Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
+## 2. Login e Logout
+- Testar se o usuário pode fazer login com sucesso.
+- Verificar se a recuperação de senha está funcionando corretamente.
+- Testar se o usuário pode fazer logout com sucesso.
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
+## 3. Gestão de Contas
+- Testar se o usuário pode adicionar uma nova conta.
+- Verificar se o usuário pode editar os detalhes da conta.
+- Testar se o usuário pode excluir uma conta.
 
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+## 4. Transações
+- Testar se o usuário pode adicionar uma nova transação.
+- Verificar se o usuário pode editar uma transação.
+- Testar se o usuário pode excluir uma transação.
+
+## 5. Relatórios
+- Testar se o usuário pode gerar relatórios de transações.
+- Verificar se os relatórios são precisos.
+
+## 6. Segurança
+- Verificar se todas as páginas estão protegidas contra acesso não autorizado.
+- Testar se a criptografia de dados sensíveis está funcionando corretamente.
