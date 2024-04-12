@@ -109,7 +109,7 @@
   <th>Critérios de êxito</th>
  </tr>
  <tr>
-  <td>CT-04: Verificar a funcionalidade de inserir usuários aos grupos familiáres</td>
+  <td>CT-04: Verificar a funcionalidade de inserir usuários aos grupos devedores</td>
   <td>
    <ul>
     <li>RF-04 O site deve apresentar, um crud para adição de grupos de custo, nome, integrantes e contas compartilhadas e banco. </li>
