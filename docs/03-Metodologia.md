@@ -58,7 +58,7 @@ A organização da equipe se dará da seguinte forma:
 
 <p> Para organização e distribuição das tarefas do projeto, a equipe está utilizando o quadro kanban no Trello, estruturado com as seguintes listas: </p>
 
-![trello](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t9-pmv-ads-2024-1-e2-proj-gestaocontas/blob/main/docs/img/quadro%20trello.png)
+![trello](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t9-pmv-ads-2024-1-e2-proj-gestaocontas/blob/main/docs/img/TRELLO%20TAREFAS.png)
 
 
 - ` Backlog`: Local onde todas as tarefas iniciais são listadas para serem feitas posteriormente.
