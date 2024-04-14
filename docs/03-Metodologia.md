@@ -78,18 +78,11 @@ A organização da equipe se dará da seguinte forma:
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+| Ferramenta                        | Plataforma                 | Justificativa                                                                                                                                                                                     |
+| --------------------------------- | -------------------------- | ------------- |
+| Ferramenta de comunicação         | WhatsApp e Microsoft Teams | Facilita a comunicação entre os membros da equipe, permitindo a praticidade e eficiência na troca de informações sobre o projeto, além disso possibilita realizar as reuniões de alinhamento.|
+| Diagrama de fluxo e Wireframes | Figma | O figma permite que todos permite que todos os membros possam colaborar, e tem uma interface de fácil compreensão, além de possuir modelos prontos que auxiliam no desenvolvimento da tarefa.|
+| Gerenciamento do projeto        | Trello  | É uma ferramenta eficaz para gerenciar o projeto, permite dividir todas as tarefas e atualizar o andamento delas. |
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+
