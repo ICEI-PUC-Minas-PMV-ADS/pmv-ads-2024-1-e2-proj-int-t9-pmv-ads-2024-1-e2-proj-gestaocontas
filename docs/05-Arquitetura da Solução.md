@@ -19,10 +19,50 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 
 ## Projeto da Base de Dados
+Entidades:
+1. Usuário
+   - CPF (chave primária)
+   - Nome
+   - Email
+   - Senha
 
-O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
- 
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
+2. Cartão de Crédito
+   - 4 ultimos digitos do cartão
+   - Nome do Titular
+   - Data de Vencimento
+   - CPF_Usuário (chave estrangeira)
+
+3. Boleto Bancário
+   - Código do Boleto (chave primária)
+   - Data de Vencimento
+   - Valor
+   - CPF_Usuário (chave estrangeira)
+
+4. Dinheiro Físico
+   - ID (chave primária)
+   - Valor
+   - CPF_Usuário (chave estrangeira)
+
+5. Grupo de Finanças
+   - ID_Grupo (chave primária)
+   - Nome do Grupo
+   - Descrição
+
+6. Relatório Mensal
+   - ID_Relatório (chave primária)
+   - Mês/Ano
+   - CPF_Usuário (chave estrangeira)
+   - ID_Grupo (chave estrangeira)
+
+Relacionamentos:
+- Um Usuário pode ter vários Cartões de Crédito, Boletos Bancários e Dinheiro Físico.
+- Um Usuário pode pertencer a vários Grupos de Finanças.
+- Um Relatório Mensal detalha todos os gastos de um Usuário ou de um Grupo de Finanças.
+
+Atributos de Relacionamento:
+- Para o Relatório Mensal, incluiria atributos como 'Total Gasto', 'Total Recebido', 'Saldo Final', e detalhes dos gastos por categoria.
+-
+
 
 ## Tecnologias Utilizadas
 
