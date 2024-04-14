@@ -14,7 +14,7 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 <h4>Figura 1- Diagrama de fluxo do usuário não auntenticado </h4>
 <br></br>
 
-O segundo diagrama representa as funcionalidades que o usuário pode ter ao realizar o login, ele pode tomar várias decisões de acordo com sua necessidade em usar a aplicação
+O segundo diagrama representa as funcionalidades que o usuário pode ter ao realizar o login, ele pode tomar várias decisões de acordo com sua necessidade em usar a aplicação.
 <br></br>
 <img width="1980" alt="MasterMoney (2)" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t9-pmv-ads-2024-1-e2-proj-gestaocontas/assets/101624093/1c6d7aba-5c0f-49d4-aeac-f11426bb68fd">
 
