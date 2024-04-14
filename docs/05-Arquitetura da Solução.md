@@ -72,9 +72,6 @@ Relacionamentos:
 - Um Usuário pode pertencer a vários Grupos de Finanças.
 - Um Registro de gastos Registra todos os gastos todos os gastos de um Usuário ou de um Grupo de Finanças.
 
-Atributos de Relacionamento:
-- 
--
 
 
 ## Tecnologias Utilizadas
