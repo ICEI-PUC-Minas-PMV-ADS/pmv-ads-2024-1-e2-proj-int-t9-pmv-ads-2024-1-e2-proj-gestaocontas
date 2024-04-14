@@ -11,7 +11,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Jayvison Gonçalves Santana
-* Diego chagas de souza
+* Diego Chagas de Souza
 * Fernando Marques e Marques
 * Vinícius Vieira Silva
 * Enzo Gomes Azevedo
