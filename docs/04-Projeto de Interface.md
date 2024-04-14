@@ -8,7 +8,16 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
 
 ## Diagrama de Fluxo
+ O primeiro diagrama de fluxo representa o caminho a ser feito quando o usuário não está logado no sistema. 
+ <br></br>
+<img width="725" alt="MasterMoney (1)" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t9-pmv-ads-2024-1-e2-proj-gestaocontas/assets/101624093/9e6cb0ea-51e3-4037-a4e1-1d847062ddd5">
+<h4>Figura 1- Diagrama de fluxo do usuário não auntenticado </h4>
+<br></br>
 
+O segundo diagrama representa as funcionalidades que o usuário pode ter ao realizar o login, ele pode tomar várias decisões de acordo com sua necessidade em usar a aplicação
+<br></br>
+<img width="1972" alt="MasterMoney 2" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t9-pmv-ads-2024-1-e2-proj-gestaocontas/assets/101624093/7da7c0e9-4a30-4aee-9ad1-4c90916f1ca7">
+<h4>Figura 2- Diagrama de fluxo do usuário auntenticado </h4>
 
 
 
