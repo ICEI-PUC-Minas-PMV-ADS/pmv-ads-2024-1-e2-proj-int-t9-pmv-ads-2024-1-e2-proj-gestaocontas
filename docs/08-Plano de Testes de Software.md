@@ -142,15 +142,14 @@
   <th>Critérios de êxito</th>
  </tr>
  <tr>
-  <td>CT-05: Verificar a funcionalidade de análise e inserção de gastos</td>
+  <td>CT-05: Verificar a funcionalidade de inserção de gastos</td>
   <td>
    <ul>
     <li>RF-05 O site deve apresentar, um crud para adição de gastos nos cartões, com data de vencimento, nome e tipo de gasto. </li>
-    <li>RF-06 O site deve gerar um relatório apontando quais gastos ocorrem mais, de acordo com seu tipo. </li>
   
    </ul>
   </td>
-  <td>Verificar se o sistema está adicionando os gastos de grupos e induvidual, permitindo a visualização dos mesmos.</td>
+  <td>Verificar se o sistema está adicionando os gastos de grupos e induvidual.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
@@ -174,4 +173,79 @@
   <td>O sistema deve exibir de forma correta os respectivos gastos que foram inseridos tanto para o usuário indidual quanto para os grupos de gastos.</td>
  </tr>
 </table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+ </tr>
+ <tr>
+  <td>CT-06: Verificar a funcionalidade de análise de gastos</td>
+  <td>
+   <ul>
+     <li>RF-06 O site deve gerar um relatório apontando quais gastos ocorrem mais, de acordo com seu tipo. </li>
+  
+   </ul>
+  </td>
+  <td>Verificar se o sistema está permitindo a analise dos gastos adicionados.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Efetuar login .</li>
+    <li>Selecionar aba cartões </li>
+    <li>selecionar "ver gastos" .</li>
+    <li>Verificar gastos que foram inseridos</li>
+    <li>Selecionar aba Home</li>
+    <li>Selecionar aba fisico.</li>
+    <li>Verificar gastos que foram inseridos </li>
+        
+   </ol>
+   </td>
+  <td>O sistema deve exibir de forma correta os respectivos gastos que foram inseridos.</td>
+ </tr>
+</table>
+
+ <table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+ </tr>
+ <tr>
+  <td>CT-07: Verificar a funcionalidade de inserção de gastos dos grupos devedores</td>
+  <td>
+   <ul>
+     <li>RF-04 O site deve apresentar, um crud para adição de grupos de custo, nome, integrantes e contas compartilhadas. </li>
+  
+   </ul>
+  </td>
+  <td>Verificar se o sistema está permitindo a adição de gastos dos grupos devedores.</td>
+  <td>
+   <ol>
+     <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Efetuar login .</li>
+    <li>Acessar aba Grupos </li>
+     <li>Selecionar botão "adicionar" no canto inferior direito</li>
+     <li>Inserir nome do gasto </li>
+     <li>Inserir data </li>
+     <li>Inserir devedores </li>
+     <li>Inserir recebedor </li>
+     <li>Inserir valor </li>
+     <li>Verificar se todas as informações aparecem de forma correta na aba "Grupos" </li>
+        
+   </ol>
+   </td>
+  <td>O sistema deve exibir de forma correta todas as informações adicionadas no grupo.</td>
+ </tr>
+</table>
  
+
