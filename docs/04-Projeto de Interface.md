@@ -16,7 +16,8 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 
 O segundo diagrama representa as funcionalidades que o usuário pode ter ao realizar o login, ele pode tomar várias decisões de acordo com sua necessidade em usar a aplicação
 <br></br>
-<img width="1972" alt="MasterMoney 2" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t9-pmv-ads-2024-1-e2-proj-gestaocontas/assets/101624093/7da7c0e9-4a30-4aee-9ad1-4c90916f1ca7">
+<img width="1980" alt="MasterMoney (2)" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t9-pmv-ads-2024-1-e2-proj-gestaocontas/assets/101624093/1c6d7aba-5c0f-49d4-aeac-f11426bb68fd">
+
 <h4>Figura 2- Diagrama de fluxo do usuário auntenticado </h4>
 
 
