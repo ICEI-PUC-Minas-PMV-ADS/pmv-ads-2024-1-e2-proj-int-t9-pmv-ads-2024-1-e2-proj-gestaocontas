@@ -3,7 +3,8 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+
+Nesse projeto optou-se pelo método SCRUM devido às suas características, como o desenvolvimento em equipes reduzidas, promovendo flexibilidade e comunicação eficaz. Esses elementos facilitam a adaptação das tarefas às demandas em constante evolução, resultando em entregas de alta qualidade. 
 
 ## Controle de Versão
 
@@ -39,7 +40,12 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A organização da equipe se dará da seguinte forma:
+
+- `Product Owner`: Vinícius Vieira Silva
+- `Scrum Master`: Enzo Gomes Azevedo
+- `Equipe de Desenvolvimento`: Jayvison Gonçalves Santana, Diego Chagas de Souza, Fernando Marques e Marques, Vinícius Vieira Silva, Enzo Gomes Azevedo, Rodrigo Araújo Ribeiro
+- `Equipe de Design`: Jayvison Gonçalves Santana, Diego Chagas de Souza, Fernando Marques e Marques, Vinícius Vieira Silva, Enzo Gomes Azevedo, Rodrigo Araújo Ribeiro
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
@@ -48,7 +54,19 @@ Apresente a divisão de papéis entre os membros do grupo.
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+
+
+<p> Para organização e distribuição das tarefas do projeto, a equipe está utilizando o quadro kanban no Trello, estruturado com as seguintes listas: </p>
+
+![trello](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t9-pmv-ads-2024-1-e2-proj-gestaocontas/blob/main/docs/img/quadro%20trello.png)
+
+
+- ` Backlog`: Local onde todas as tarefas iniciais são listadas para serem feitas posteriormente.
+- ` A fazer`: contém as tarefas que foram priorizadas e estão prontas para serem executadas.
+- `Desenvolvimento `: Esta etapa é onde as ideias se tornam realidade através do trabalho ativo da equipe. As tarefas aqui estão em progresso e estão sendo trabalhadas para alcançar os objetivos estabelecidos.
+- `Validação`: É onde as tarefas completadas são revisadas e testadas para garantir sua qualidade e conformidade com os requisitos estabelecidos.
+- `Pronto`: Esta etapa marca o final do ciclo de desenvolvimento para cada tarefa individual, indicando que está pronta para ser entregue ou movida para a próxima fase do projeto.
+
  
 > **Links Úteis**:
 > - [Project management, made simple](https://github.com/features/project-management/)
