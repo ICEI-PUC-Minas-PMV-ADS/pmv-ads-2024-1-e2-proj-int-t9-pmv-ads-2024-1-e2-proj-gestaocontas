@@ -27,40 +27,53 @@ Entidades:
    - Senha
 
 2. Cartão de Crédito
-   - 4 ultimos digitos do cartão
    - Nome do Titular
    - Data de Vencimento
+   - Bandeira do cartão 
+   - 4 ultimos digitos do cartão
+   - Tipo de gastos
+   - Descrição
    - CPF_Usuário (chave estrangeira)
 
 3. Boleto Bancário
    - Código do Boleto (chave primária)
    - Data de Vencimento
    - Valor
+   - link para o boleto
+   - Tipo de gastos
+   - Descrição
    - CPF_Usuário (chave estrangeira)
 
-4. Dinheiro Físico
+4. Dinheiro Físico/Pix
    - ID (chave primária)
    - Valor
+   - Tipo de gasto
+   - Descrição
    - CPF_Usuário (chave estrangeira)
 
 5. Grupo de Finanças
    - ID_Grupo (chave primária)
    - Nome do Grupo
+   - Data da transação
+   - Tipo de gasto
    - Descrição
 
-6. Relatório Mensal
-   - ID_Relatório (chave primária)
-   - Mês/Ano
+6. Registro de gastos
+   - ID_Registro (chave primária)
+   - Data
+   - Valor_Cartão de crédito,Dinheiro físico pix,Boleto(Chave estrageira)
+   - tipo de gastos
+   - descrição
    - CPF_Usuário (chave estrangeira)
    - ID_Grupo (chave estrangeira)
 
 Relacionamentos:
 - Um Usuário pode ter vários Cartões de Crédito, Boletos Bancários e Dinheiro Físico.
 - Um Usuário pode pertencer a vários Grupos de Finanças.
-- Um Relatório Mensal detalha todos os gastos de um Usuário ou de um Grupo de Finanças.
+- Um Registro de gastos Registra todos os gastos todos os gastos de um Usuário ou de um Grupo de Finanças.
 
 Atributos de Relacionamento:
-- Para o Relatório Mensal, incluiria atributos como 'Total Gasto', 'Total Recebido', 'Saldo Final', e detalhes dos gastos por categoria.
+- 
 -
 
 
