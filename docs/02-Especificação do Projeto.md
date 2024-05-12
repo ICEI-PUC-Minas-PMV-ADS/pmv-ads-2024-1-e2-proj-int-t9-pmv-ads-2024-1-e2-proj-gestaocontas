@@ -146,7 +146,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-04| O site deve apresentar, um crud para adição de grupos de custo, nome, integrantes e contas compartilhadas.	|Alta|
 |RF-05| O site deve apresentar, um crud para adição de dinheiro físico, com data de vencimento, nome e tipo de gasto.|	Média|
 |RF-06|	O site deve gerar um relatório apontando quais gastos ocorrem mais, de acordo com seu tipo.|	Baixa|
-|RF-07|	O site deve apresentar, um crud para adição de gastos nos cartões, com data de vencimento, nome e tipo de gasto.|	Baixa|
+|RF-07|	O site deve apresentar, um crud para adição de gastos nos cartões, com data de vencimento, nome e tipo de gasto.|	Média|
 
 
 
