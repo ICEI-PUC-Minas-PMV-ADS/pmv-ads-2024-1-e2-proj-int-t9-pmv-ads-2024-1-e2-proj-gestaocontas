@@ -12,8 +12,8 @@ using Trabalho_PUC.Models;
 namespace Trabalho_PUC.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240501163433_M01-AddTableCard")]
-    partial class M01AddTableCard
+    [Migration("20240512035209_M03")]
+    partial class M03
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -49,6 +49,54 @@ namespace Trabalho_PUC.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Cards");
+                });
+
+            modelBuilder.Entity("Trabalho_PUC.Models.PhysicalMoney", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Tipogasto")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Valor")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("PhysicalMoneys");
+                });
+
+            modelBuilder.Entity("Trabalho_PUC.Models.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Perfil")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
                 });
 #pragma warning restore 612, 618
         }

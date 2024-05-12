@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
+
 namespace Trabalho_PUC.Models
 {
     public class AppDbContext : DbContext
@@ -7,5 +8,9 @@ namespace Trabalho_PUC.Models
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<Card> Cards { get; set; }
+
+        public DbSet<User> Users { get; set; }
+
+        public DbSet<PhysicalMoney> PhysicalMoneys { get; set; }
     }
 }
