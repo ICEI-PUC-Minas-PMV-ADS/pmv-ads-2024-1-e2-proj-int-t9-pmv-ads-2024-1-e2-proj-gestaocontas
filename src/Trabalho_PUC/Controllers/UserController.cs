@@ -1,26 +1,34 @@
-﻿
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
 using System.Security.Claims;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Trabalho_PUC.Models;
-
+using ProjetoPuc.Models;
 
 namespace Trabalho_PUC.Controllers
+
 {
-    public class UserController : Controller
+    public class UsuariosController : Controller
     {
         private readonly AppDbContext _context;
+#pragma warning disable CS0649 // Campo "UsuariosController.u" nunca é atribuído e sempre terá seu valor padrão null
+        private object u;
+#pragma warning restore CS0649 // Campo "UsuariosController.u" nunca é atribuído e sempre terá seu valor padrão null
 
-        public UserController(AppDbContext context)
+        public UsuariosController(AppDbContext context)
         {
             _context = context;
         }
 
-   
+        // GET: Usuarios
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Users.ToListAsync());
+              return View(await _context.Usuarios.ToListAsync());
         }
 
         public IActionResult Login()
@@ -28,10 +36,11 @@ namespace Trabalho_PUC.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Login(User usuario)
+        public async Task<IActionResult> Login(Usuario usuario)
         {
 
-            var dados = await _context.Users.FindAsync(usuario.Id);
+            var dados = await _context.Usuarios.FirstOrDefaultAsync(u => u.CPF == usuario.CPF);
+
 
             if (dados == null)
             {
@@ -54,10 +63,10 @@ namespace Trabalho_PUC.Controllers
                 var props = new AuthenticationProperties
                 {
                     AllowRefresh = true,
-                    ExpiresUtc = DateTime.UtcNow.ToLocalTime().AddHours(8),
-                    IsPersistent = true,
+                ExpiresUtc = DateTime.UtcNow.ToLocalTime().AddHours(8),
+                IsPersistent = true,
                 };
-
+                
                 await HttpContext.SignInAsync(principal, props);
 
                 return Redirect("/");
@@ -82,14 +91,15 @@ namespace Trabalho_PUC.Controllers
 
 
 
+        // GET: Usuarios/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Users == null)
+            if (id == null || _context.Usuarios == null)
             {
                 return NotFound();
             }
 
-            var usuario = await _context.Users
+            var usuario = await _context.Usuarios
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (usuario == null)
             {
@@ -99,14 +109,18 @@ namespace Trabalho_PUC.Controllers
             return View(usuario);
         }
 
+        // GET: Usuarios/Create
         public IActionResult Create()
         {
             return View();
         }
 
+        // POST: Usuarios/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Senha,Perfil")] User usuario)
+        public async Task<IActionResult> Create([Bind("CPF,Nome,Senha,Perfil")] Usuario usuario)
         {
             if (ModelState.IsValid)
             {
@@ -118,14 +132,15 @@ namespace Trabalho_PUC.Controllers
             return View(usuario);
         }
 
+        // GET: Usuarios/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Users == null)
+            if (id == null || _context.Usuarios == null)
             {
                 return NotFound();
             }
 
-            var usuario = await _context.Users.FindAsync(id);
+            var usuario = await _context.Usuarios.FindAsync(id);
             if (usuario == null)
             {
                 return NotFound();
@@ -133,10 +148,12 @@ namespace Trabalho_PUC.Controllers
             return View(usuario);
         }
 
-
+        // POST: Usuarios/Edit/5
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Senha,Perfil")] User usuario)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Senha,Perfil")] Usuario usuario)
         {
             if (id != usuario.Id)
             {
@@ -167,15 +184,15 @@ namespace Trabalho_PUC.Controllers
             return View(usuario);
         }
 
- 
+        // GET: Usuarios/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Users == null)
+            if (id == null || _context.Usuarios == null)
             {
                 return NotFound();
             }
 
-            var usuario = await _context.Users
+            var usuario = await _context.Usuarios
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (usuario == null)
             {
@@ -185,28 +202,28 @@ namespace Trabalho_PUC.Controllers
             return View(usuario);
         }
 
-    
+        // POST: Usuarios/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Users == null)
+            if (_context.Usuarios == null)
             {
                 return Problem("Entity set 'AppDbContext.Usuarios'  is null.");
             }
-            var usuario = await _context.Users.FindAsync(id);
+            var usuario = await _context.Usuarios.FindAsync(id);
             if (usuario != null)
             {
-                _context.Users.Remove(usuario);
+                _context.Usuarios.Remove(usuario);
             }
-
+            
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool UsuarioExists(int id)
         {
-            return _context.Users.Any(e => e.Id == id);
+          return _context.Usuarios.Any(e => e.Id == id);
         }
     }
 }
