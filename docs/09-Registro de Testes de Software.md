@@ -12,7 +12,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | **Caso de Teste** 	| **CT-02 – Realizar login** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-00Y - A aplicação deve permitir que um usuário previamente cadastrado faça login |
-|Registro de evidência | [www.teste.com.br/drive/ct-02](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t9-pmv-ads-2024-1-e2-proj-gestaocontas/blob/main/docs/img/cadastro%20usuario%20nonono.png) |
+|Registro de evidência | [https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t9-pmv-ads-2024-1-e2-proj-gestaocontas/blob/main/docs/img/cadastro%20usuario%20nonono.png] |
 Imagem acima detalha a tela de criação do usuário
 
 | **Caso de Teste** 	| **CT-02 – Realizar login** 	|
