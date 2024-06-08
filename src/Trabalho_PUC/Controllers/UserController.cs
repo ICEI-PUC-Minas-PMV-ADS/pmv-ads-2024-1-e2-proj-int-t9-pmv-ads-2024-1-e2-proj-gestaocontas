@@ -1,34 +1,26 @@
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
+﻿
 using System.Security.Claims;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using ProjetoPuc.Models;
+using Trabalho_PUC.Models;
+
 
 namespace Trabalho_PUC.Controllers
-
 {
-    public class UsuariosController : Controller
+    public class UserController : Controller
     {
         private readonly AppDbContext _context;
-#pragma warning disable CS0649 // Campo "UsuariosController.u" nunca é atribuído e sempre terá seu valor padrão null
-        private object u;
-#pragma warning restore CS0649 // Campo "UsuariosController.u" nunca é atribuído e sempre terá seu valor padrão null
 
-        public UsuariosController(AppDbContext context)
+        public UserController(AppDbContext context)
         {
             _context = context;
         }
 
-        // GET: Usuarios
+   
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Usuarios.ToListAsync());
+            return View(await _context.Users.ToListAsync());
         }
 
         public IActionResult Login()
@@ -36,20 +28,25 @@ namespace Trabalho_PUC.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Login(Usuario usuario)
+        public async Task<IActionResult> Login(User usuario)
         {
+         
 
-            var dados = await _context.Usuarios.FirstOrDefaultAsync(u => u.CPF == usuario.CPF);
+            var dados = await _context.Users.FirstOrDefaultAsync(u => u.CPF == usuario.CPF);
 
+
+            Console.WriteLine(dados);
 
             if (dados == null)
             {
+          
+
                 ViewBag.Message = "Usuário e/ou senha inválidos";
                 return View();
             }
 
             bool senhaOk = BCrypt.Net.BCrypt.Verify(usuario.Senha, dados.Senha);
-
+            Console.WriteLine(senhaOk);
             if (senhaOk)
             {
                 var claims = new List<Claim>
@@ -63,10 +60,10 @@ namespace Trabalho_PUC.Controllers
                 var props = new AuthenticationProperties
                 {
                     AllowRefresh = true,
-                ExpiresUtc = DateTime.UtcNow.ToLocalTime().AddHours(8),
-                IsPersistent = true,
+                    ExpiresUtc = DateTime.UtcNow.ToLocalTime().AddHours(8),
+                    IsPersistent = true,
                 };
-                
+
                 await HttpContext.SignInAsync(principal, props);
 
                 return Redirect("/");
@@ -85,21 +82,20 @@ namespace Trabalho_PUC.Controllers
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync();
-            return RedirectToAction("Login", "Usuarios");
+            return Redirect("/");
         }
 
 
 
 
-        // GET: Usuarios/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Usuarios == null)
+            if (id == null || _context.Users == null)
             {
                 return NotFound();
             }
 
-            var usuario = await _context.Usuarios
+            var usuario = await _context.Users
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (usuario == null)
             {
@@ -109,18 +105,14 @@ namespace Trabalho_PUC.Controllers
             return View(usuario);
         }
 
-        // GET: Usuarios/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Usuarios/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CPF,Nome,Senha,Perfil")] Usuario usuario)
+        public async Task<IActionResult> Create([Bind("CPF,Nome,Senha,Perfil")] User usuario)
         {
             if (ModelState.IsValid)
             {
@@ -132,15 +124,14 @@ namespace Trabalho_PUC.Controllers
             return View(usuario);
         }
 
-        // GET: Usuarios/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Usuarios == null)
+            if (id == null || _context.Users == null)
             {
                 return NotFound();
             }
 
-            var usuario = await _context.Usuarios.FindAsync(id);
+            var usuario = await _context.Users.FindAsync(id);
             if (usuario == null)
             {
                 return NotFound();
@@ -148,12 +139,10 @@ namespace Trabalho_PUC.Controllers
             return View(usuario);
         }
 
-        // POST: Usuarios/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Senha,Perfil")] Usuario usuario)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Senha,Perfil")] User usuario)
         {
             if (id != usuario.Id)
             {
@@ -184,15 +173,15 @@ namespace Trabalho_PUC.Controllers
             return View(usuario);
         }
 
-        // GET: Usuarios/Delete/5
+ 
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Usuarios == null)
+            if (id == null || _context.Users == null)
             {
                 return NotFound();
             }
 
-            var usuario = await _context.Usuarios
+            var usuario = await _context.Users
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (usuario == null)
             {
@@ -202,28 +191,28 @@ namespace Trabalho_PUC.Controllers
             return View(usuario);
         }
 
-        // POST: Usuarios/Delete/5
+    
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Usuarios == null)
+            if (_context.Users == null)
             {
                 return Problem("Entity set 'AppDbContext.Usuarios'  is null.");
             }
-            var usuario = await _context.Usuarios.FindAsync(id);
+            var usuario = await _context.Users.FindAsync(id);
             if (usuario != null)
             {
-                _context.Usuarios.Remove(usuario);
+                _context.Users.Remove(usuario);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool UsuarioExists(int id)
         {
-          return _context.Usuarios.Any(e => e.Id == id);
+            return _context.Users.Any(e => e.Id == id);
         }
     }
 }
