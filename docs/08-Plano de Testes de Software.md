@@ -142,7 +142,7 @@
   <th>Critérios de êxito</th>
  </tr>
  <tr>
-  <td>CT-05: Verificar a funcionalidade de inserção de gastos</td>
+  <td>CT-05: Verificar a funcionalidade de inserção de cartoes</td>
   <td>
    <ul>
     <li>RF-05 O site deve apresentar, um crud para adição de gastos nos cartões, com data de vencimento, nome e tipo de gasto. </li>
