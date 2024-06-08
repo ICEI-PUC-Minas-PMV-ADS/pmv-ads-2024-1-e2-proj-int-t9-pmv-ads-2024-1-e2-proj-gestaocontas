@@ -44,9 +44,10 @@ Imagem acima consta o usuário  tem acesso a tela de listagem de cartões
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-002 - A aplicação deve permitir que um usuário cadastre um cartão |
 |Registro de evidência | <a href="https://ibb.co/sggfKcR"><img src="https://i.ibb.co/2FF9vRh/image.png" alt="image" border="0"></a> |
-| **Caso de Teste** 	|**CT-05 – Adicionar um cartão** |
 
 Imagem acima  consta que o usuário tem acesso a tela de criação de cartões
+
+| **Caso de Teste** 	|**CT-05 – Adicionar um cartão** |
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-002 -  Validar os dados enviados |
 |Registro de evidência | <a href="https://ibb.co/DwyhK7y"><img src="https://i.ibb.co/3Sq2h0q/image.png" alt="image" border="0"></a> |
