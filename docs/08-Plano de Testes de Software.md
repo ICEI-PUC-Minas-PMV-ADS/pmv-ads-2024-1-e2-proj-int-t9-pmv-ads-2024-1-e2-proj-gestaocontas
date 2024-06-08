@@ -149,7 +149,7 @@
   
    </ul>
   </td>
-  <td>Verificar se o sistema está adicionando os gastos de grupos e induvidual.</td>
+  <td>Verificar se o sistema está adicionando os cartoes</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
@@ -157,16 +157,8 @@
     <li>Visualizar a página Home.</li>
     <li>Efetuar login .</li>
     <li>Selecionar aba cartões </li>
-    <li>Inserir gastos .</li>
-    <li>Verificar gastos que foram inseridos</li>
-    <li>Selecionar aba Home</li>
-    <li>Selecionar aba boletos.</li>
-    <li>Inserir dados referente a conta </li>
-    <li>Verificar gastos que foram inseridos</li>
-    <li>Selecionar aba Home</li>
-    <li>Selecionar aba Grupos</li>
-    <li>Adicionar dados de gasto </li>
-    <li>Verificar gastos que foram inseridos</li>
+    <li>Inserir um cartão .</li>
+    <li>Verificar os dados que foram inseridos</li>
         
    </ol>
    </td>
