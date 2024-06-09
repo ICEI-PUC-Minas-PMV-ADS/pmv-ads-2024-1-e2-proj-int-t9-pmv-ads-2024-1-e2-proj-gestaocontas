@@ -54,6 +54,27 @@ Imagem acima  consta que o usuário tem acesso a tela de criação de cartões
 
 Imagem acima consta que o usuário consegue criar e armazenar um cartão
 
+| **Caso de Teste** 	| **CT-08 – Adicionar um gasto físico** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-005 - A aplicação deve permitir que um usuário possa acessar o ambiente para adicionar um gasto físico|
+|Registro de evidência | <a href="https://ibb.co/kDqbCPf"><img src="https://i.ibb.co/DMwc2jy/lista-gasto-fisico.png" alt="lista-gasto-fisico" border="0"></a>|
+
+Imagem acima consta o usuário  tem acesso a tela de listagem de gastos físicos
+
+| **Caso de Teste** 	| **CT-08 – Adicionar um gasto físico** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-005 - A aplicação deve permitir que um usuário possa cadastrar um gasto físico|
+|Registro de evidência | <a href="https://ibb.co/YBP4H5G"><img src="https://i.ibb.co/XxjfcnT/Adicionando-gasto.png" alt="Adicionando-gasto" border="0"></a>|
+
+Imagem acima consta o usuário tem acesso ao cadastro do gasto físico, podendo inserir as informações requisitadas pelo sistema.
+
+| **Caso de Teste** 	| **CT-08 – Adicionar um gasto físico** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-005 - A aplicação deve permitir que um usuário possa cadastrar um gasto físico|
+|Registro de evidência | <a href="https://ibb.co/gvLBKqw"><img src="https://i.ibb.co/dbwzYC6/Gasto-inserido.png" alt="Gasto-inserido" border="0"></a>|
+
+Imagem acima consta o gasto inserido, podendo ser editado, detalhado ou exluido pelo usuário.
+
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
