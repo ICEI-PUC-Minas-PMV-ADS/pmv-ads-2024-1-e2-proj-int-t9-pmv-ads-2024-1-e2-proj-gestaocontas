@@ -4,27 +4,44 @@
     ViewData["Title"] = "Details";
 }
 
+<style>
+    body {
+        background-color: #f4f4f9;
+        color: #333;
+    }
+
+    h1 {
+        color: #49108B;
+    }
+
+    .btn-primary {
+        background-color: #49108B;
+        border-color: #49108B;
+    }
+
+        .btn-primary:hover {
+            background-color: #38106d;
+            border-color: #38106d;
+        }
+
+    .col-sm-2 {
+        font-weight: bold;
+    }
+</style>
+
 <h1>Details</h1>
 
 <div>
     <h4>User</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nome)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nome)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Perfil)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Perfil)
-        </dd>
+        <dt class="col-sm-2">Name</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Nome)</dd>
+        <dt class="col-sm-2">Profile</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Perfil)</dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Editar</a> |
+    <a asp-action="Index" class="btn btn-primary">Voltar a listagem</a>
 </div>

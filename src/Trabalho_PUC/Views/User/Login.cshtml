@@ -1,68 +1,98 @@
-
-@model Trabalho_PUC.Models.User
+﻿@model Trabalho_PUC.Models.User
 
 @{
     ViewData["Title"] = "Login";
 }
 
-<div class="form-group text-center">
-<h1> MasterMoney</h1>
-</div>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - MasterMoney</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+        }
 
-<hr />
+        .container {
+            margin-top: 50px;
+        }
 
+        .logo {
+            margin-bottom: 20px;
+            text-align: center;
+        }
 
+        .form-group {
+            margin-bottom: 20px;
+        }
 
-<div class="row">
-    
+        .forgot-password {
+            font-size: 14px;
+        }
 
-    <div class="col-md-4 d-none d-md-flex align-items-center justify-content-center p-0">
-        <img src="~/lib/imagem_login.png" class="img-fluid" alt="Imagem de Login">
-    </div>
+        .btn-login {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+        }
 
+        .register-link {
+            font-size: 16px;
+        }
 
-    <div class="col-md-4 offset-md-2 d-flex align-items-center justify-content-center">
-        <form asp-action="Login">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
-            <div class="form-group">
-                <label asp-for="CPF" class="control-label"></label>
-                <input asp-for="CPF" class="form-control" />
-                <span asp-validation-for="CPF" class="text-danger"></span>
-            </div>
-
-            <div class="form-group">
-                <div class="d-flex justify-content-between align-items-center">
-                    <label asp-for="Senha" class="control-label mb-0"></label>
-                    <a asp-action="Edit" class="text-decoration-underline">esqueceu a senha?</a>
+        .login-image {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="logo">
+                    <h1>MasterMoney</h1>
                 </div>
-                <input asp-for="Senha" class="form-control" />
-                <span asp-validation-for="Senha" class="text-danger"></span>
+                <hr />
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="~/lib/imagem_login.png" class="img-fluid login-image" alt="Imagem de Login">
+                    </div>
+                    <div class="col-md-6">
+                        <form asp-action="Login">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                            <div class="form-group">
+                                <label asp-for="CPF" class="control-label">CPF</label>
+                                <input asp-for="CPF" class="form-control" />
+                                <span asp-validation-for="CPF" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="Senha" class="control-label">Senha</label>
+                                <input asp-for="Senha" type="password" class="form-control" />
+                                <span asp-validation-for="Senha" class="text-danger"></span>
+                                <div class="forgot-password">
+                                    <a asp-action="Edit" class="text-decoration-underline">Esqueceu a senha?</a>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="submit" value="Login" class="btn btn-primary btn-login" />
+                            </div>
+
+                            <div class="form-group">
+                                <p class="register-link">Ainda não tem cadastro? <a asp-action="Create">Cadastre-se aqui</a></p>
+                            </div>
+                        </form>
+                        <h3>@ViewBag.Message</h3>
+                    </div>
+                </div>
             </div>
-
-            <h1>    </h1>
-
-
-            <div class="form-group text-center" style="width: 100%;">
-                <input type="submit" value="Login" class="btn btn-primary btn-lg btn-block" style="width: 100%;" />
-            </div>
-
-
-            
-            <h1>    </h1>
-
-
-            <div class="form-group text-center">
-                <a asp-action="Create">ainda não tem cadastro</a>
-            </div>
-
-        </form>
-        <h3>@ViewBag.Message</h3>
+        </div>
     </div>
-</div>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
-
-
+</body>
+</html>

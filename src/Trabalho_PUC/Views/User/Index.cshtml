@@ -1,14 +1,49 @@
 ﻿@model IEnumerable<Trabalho_PUC.Models.User>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "User List";
 }
 
-<h1>Index</h1>
+<style>
+    body {
+        background-color: #f4f4f9;
+        color: #333;
+    }
+
+    h1 {
+        color: #49108B;
+    }
+
+    .btn-primary {
+        background-color: #49108B;
+        border-color: #49108B;
+    }
+
+        .btn-primary:hover {
+            background-color: #38106d;
+            border-color: #38106d;
+        }
+
+    .table th, .table td {
+        border: 1px solid #49108B;
+    }
+
+    .table th {
+        background-color: #49108B;
+        color: #fff;
+    }
+
+    .table td {
+        background-color: #f8f9fa;
+    }
+</style>
+
+<h1>Listas usuários</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-primary">Criar Novo</a>
 </p>
+
 <table class="table">
     <thead>
         <tr>
@@ -18,24 +53,31 @@
             <th>
                 @Html.DisplayNameFor(model => model.Perfil)
             </th>
+            <th>
+                CPF
+            </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Perfil)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Perfil)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CPF)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Detalhes</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Deletar</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
