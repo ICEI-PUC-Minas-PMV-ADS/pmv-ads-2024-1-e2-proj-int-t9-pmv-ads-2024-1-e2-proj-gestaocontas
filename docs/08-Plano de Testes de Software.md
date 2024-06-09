@@ -238,6 +238,42 @@
    </td>
   <td>O sistema deve exibir de forma correta todas as informações adicionadas no grupo.</td>
  </tr>
+
+
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+ </tr>
+ <tr>
+  <td>CT-08: Verificar a funcionalidade de inserção de gastos físicos </td>
+  <td>
+   <ul>
+    <li>RF-05 O site deve apresentar, um crud para adição de dinheiro físico, com data de vencimento, nome e tipo de gasto.</li>
+ 
+   </ul>
+  </td>
+  <td> Verificar se o sistema está permitindo a adição de gastos físicos, informando o tipo de gasto, valor e nome. </td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li> Efetuar login </li>
+    <li>Clicar no link gastos físicos.</li>
+    <li> Inserir dados do gasto físico </li>
+    <li> Verificar os dados que foram inseridos </li>
+    
+   </ol>
+   </td>
+  <td>O sistema deve exibir de forma correta os respectivos gastos que foram inseridos para o usuário individual.</td>
+ </tr>
+
+ 
 </table>
  
 
