@@ -75,6 +75,20 @@ Imagem acima consta o usuário tem acesso ao cadastro do gasto físico, podendo 
 
 Imagem acima consta o gasto inserido, podendo ser editado, detalhado ou exluido pelo usuário.
 
+| **Caso de Teste** 	| **CT-04: Verificar a funcionalidade de inserir usuários aos grupos devedores** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-04 O site deve apresentar, um crud para adição de grupos de custo, nome, integrantes e contas compartilhadas e banco.|
+|Registro de evidência | ![membro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t9-pmv-ads-2024-1-e2-proj-gestaocontas/blob/main/docs/img/adi%C3%A7%C3%A3o%20de%20membro.png) |
+
+Imagem acima consta a adição de membro ao grupo, podendo ser editado ou exluido pelo usuário.
+
+| **Caso de Teste** 	| **CT-08: Verificar a funcionalidade de inserção de gastos dos grupos devedores** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-04 O site deve apresentar, um crud para adição de grupos de custo, nome, integrantes e contas compartilhadas e banco.|
+|Registro de evidência | ![gasto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t9-pmv-ads-2024-1-e2-proj-gestaocontas/blob/main/docs/img/Adicao%20de%20custo.png) |
+
+Imagem acima consta a adição de gastos ao grupo, podendo ser editado ou exluido pelo usuário.
+
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
