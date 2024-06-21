@@ -54,6 +54,27 @@ Imagem acima  consta que o usuário tem acesso a tela de criação de cartões
 
 Imagem acima consta que o usuário consegue criar e armazenar um cartão
 
+| **Caso de Teste** 	| **CT-06 – Adicionar um boleto** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-002 - A aplicação deve permitir que um usuário crie um boleto|
+|Registro de evidência | ![ListaBoletos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t9-pmv-ads-2024-1-e2-proj-gestaocontas/blob/main/docs/img/Listagem%20boletos.png) |
+
+Imagem acima consta o usuário  tem acesso a tela de listagem de boletos.
+
+| **Caso de Teste** 	| **CT-06 – Adicionar um boleto** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-002 - A aplicação deve permitir que um usuário cadastre um boleto|
+|Registro de evidência | ![CadastroBoletos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t9-pmv-ads-2024-1-e2-proj-gestaocontas/blob/main/docs/img/Adicionar%20Boleto%201.png) |
+
+Imagem acima consta o usuário  tem acesso a tela de cadastro de boletos.
+
+| **Caso de Teste** 	| **CT-06 – Adicionar um boleto** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-002 - Validação dos dados enviados|
+|Registro de evidência | ![ValidaçãoBoletos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t9-pmv-ads-2024-1-e2-proj-gestaocontas/blob/main/docs/img/Nova%20listagem%20boletos.png) |
+
+Imagem acima mostra que o usuário consegue criar e armazenar um boleto.
+
 | **Caso de Teste** 	| **CT-08 – Adicionar um gasto físico** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-005 - A aplicação deve permitir que um usuário possa acessar o ambiente para adicionar um gasto físico|
