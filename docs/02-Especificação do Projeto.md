@@ -141,7 +141,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RF-01|	O site deve apresentar cadastro e login dos seus usuários.|	Alta|
-|RF-02|	O site deve apresentar, um crud para adição de boletos, com data de vencimento, nome e local onde ele é gerado.|	Alta|
+|RF-02|	O site deve apresentar, um crud para adição de boletos, com data de vencimento, nome , tipo de gasto e valor.|	Alta|
 |RF-03|	O site deve apresentar, um crud para adição de cartões, com data de vencimento, nome e banco.|	Média
 |RF-04| O site deve apresentar, um crud para adição de grupos de custo, nome, integrantes e contas compartilhadas.	|Alta|
 |RF-05| O site deve apresentar, um crud para adição de dinheiro físico, com data de vencimento, nome e tipo de gasto.|	Média|
