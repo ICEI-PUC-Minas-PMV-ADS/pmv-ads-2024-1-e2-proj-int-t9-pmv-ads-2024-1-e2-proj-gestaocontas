@@ -76,7 +76,7 @@
   <td>CT-03: Verificar o funcionamento do cadastro de contas</td>
   <td>
    <ul>
-    <li>RF-02 O site deve apresentar, um crud para adição de boletos, com data de vencimento, nome e local onde ele é gerado. </li>
+    <li>RF-02 O site deve apresentar, um crud para adição de boletos, com data de vencimento, nome , tipo de gasto e valor. </li>
     <li>RF-03 O site deve apresentar, um crud para adição de cartões, com data de vencimento, nome e banco. </li>
   
    </ul>
