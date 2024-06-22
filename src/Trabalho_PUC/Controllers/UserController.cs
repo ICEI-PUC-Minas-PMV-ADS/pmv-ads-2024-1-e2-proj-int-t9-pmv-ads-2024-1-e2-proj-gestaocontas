@@ -30,17 +30,23 @@ namespace Trabalho_PUC.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(User usuario)
         {
+         
 
-            var dados = await _context.Users.FindAsync(usuario.Id);
+            var dados = await _context.Users.FirstOrDefaultAsync(u => u.CPF == usuario.CPF);
+
+
+            Console.WriteLine(dados);
 
             if (dados == null)
             {
+          
+
                 ViewBag.Message = "Usuário e/ou senha inválidos";
                 return View();
             }
 
             bool senhaOk = BCrypt.Net.BCrypt.Verify(usuario.Senha, dados.Senha);
-
+            Console.WriteLine(senhaOk);
             if (senhaOk)
             {
                 var claims = new List<Claim>
@@ -76,7 +82,7 @@ namespace Trabalho_PUC.Controllers
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync();
-            return RedirectToAction("Login", "Usuarios");
+            return Redirect("/");
         }
 
 
@@ -106,7 +112,7 @@ namespace Trabalho_PUC.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Senha,Perfil")] User usuario)
+        public async Task<IActionResult> Create([Bind("CPF,Nome,Senha,Perfil")] User usuario)
         {
             if (ModelState.IsValid)
             {

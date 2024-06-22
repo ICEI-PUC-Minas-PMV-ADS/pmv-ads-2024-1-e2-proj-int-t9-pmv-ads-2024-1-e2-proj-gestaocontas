@@ -1,0 +1,64 @@
+﻿@model Trabalho_PUC.Models.Grupo
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<style>
+    .button {
+        background-color: #49108B;
+        color: white;
+        padding: 9px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+        .button:hover {
+            background-color: #350a66;
+        }
+</style>
+
+<h1>Remover grupo</h1>
+<div>
+    
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Data)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Data)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Participantes)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Participantes)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Recebedor)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Recebedor)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Valor)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Valor)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <a asp-action="Index" class="button">Voltar</a> |
+        <input type="submit" value="Remover" class="btn btn-danger" />        
+    </form>
+</div>
