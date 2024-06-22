@@ -128,5 +128,36 @@ integração semelhante e por isso foram selecionadas. Por fim, para criar
 diagramas utilizamos essa ferramenta por melhor captar as
 necessidades da nossa solução.
 
+## Sprint 5
+
+### Processo
+
+<p> Para organização e distribuição das tarefas do projeto, a equipe está utilizando o quadro kanban no Trello, estruturado com as seguintes listas: </p>
+
+- ` Backlog`: Local onde todas as tarefas iniciais são listadas para serem feitas posteriormente.
+- ` A fazer`: contém as tarefas que foram priorizadas e estão prontas para serem executadas.
+- `Desenvolvimento `: Esta etapa é onde as ideias se tornam realidade através do trabalho ativo da equipe. As tarefas aqui estão em progresso e estão sendo trabalhadas para alcançar os objetivos estabelecidos.
+- `Validação`: É onde as tarefas completadas são revisadas e testadas para garantir sua qualidade e conformidade com os requisitos estabelecidos.
+- `Pronto`: Esta etapa marca o final do ciclo de desenvolvimento para cada tarefa individual, indicando que está pronta para ser entregue ou movida para a próxima fase do projeto.
+
+  O quadro kanban do Trello esta disponivel no link https://trello.com/b/m0FPrq6I/gest%C3%A3o-contas e e apresentado,no estado atual,na figura que se segue:
+
+  ![sprit 5](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t9-pmv-ads-2024-1-e2-proj-gestaocontas/blob/main/docs/img/RegistroFinalMoneyMaster.png)
+
+
+  ### Ferramentas
+
+As ferramentas empregadas no projeto são:
+
+- Editor de código.
+- Ferramentas de comunicação
+- Ferramentas de desenho de tela (_wireframing_)
+
+O editor de código foi escolhido porque ele possui uma integração com o
+sistema de versão. As ferramentas de comunicação utilizadas possuem
+integração semelhante e por isso foram selecionadas. Por fim, para criar
+diagramas utilizamos essa ferramenta por melhor captar as
+necessidades da nossa solução.
+
 
 
