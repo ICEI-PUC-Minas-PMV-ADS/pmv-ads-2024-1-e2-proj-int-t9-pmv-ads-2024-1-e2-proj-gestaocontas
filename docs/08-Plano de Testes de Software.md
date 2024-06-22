@@ -76,7 +76,7 @@
   <td>CT-03: Verificar o funcionamento do cadastro de contas</td>
   <td>
    <ul>
-    <li>RF-02 O site deve apresentar, um crud para adição de boletos, com data de vencimento, nome e local onde ele é gerado. </li>
+    <li>RF-02 O site deve apresentar, um crud para adição de boletos, com data de vencimento, nome , tipo de gasto e valor. </li>
     <li>RF-03 O site deve apresentar, um crud para adição de cartões, com data de vencimento, nome e banco. </li>
   
    </ul>
@@ -142,14 +142,14 @@
   <th>Critérios de êxito</th>
  </tr>
  <tr>
-  <td>CT-05: Verificar a funcionalidade de inserção de gastos</td>
+  <td>CT-05: Verificar a funcionalidade de inserção de cartoes</td>
   <td>
    <ul>
     <li>RF-05 O site deve apresentar, um crud para adição de gastos nos cartões, com data de vencimento, nome e tipo de gasto. </li>
   
    </ul>
   </td>
-  <td>Verificar se o sistema está adicionando os gastos de grupos e induvidual.</td>
+  <td>Verificar se o sistema está adicionando os cartoes</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
@@ -157,16 +157,8 @@
     <li>Visualizar a página Home.</li>
     <li>Efetuar login .</li>
     <li>Selecionar aba cartões </li>
-    <li>Inserir gastos .</li>
-    <li>Verificar gastos que foram inseridos</li>
-    <li>Selecionar aba Home</li>
-    <li>Selecionar aba boletos.</li>
-    <li>Inserir dados referente a conta </li>
-    <li>Verificar gastos que foram inseridos</li>
-    <li>Selecionar aba Home</li>
-    <li>Selecionar aba Grupos</li>
-    <li>Adicionar dados de gasto </li>
-    <li>Verificar gastos que foram inseridos</li>
+    <li>Inserir um cartão .</li>
+    <li>Verificar os dados que foram inseridos</li>
         
    </ol>
    </td>
@@ -183,7 +175,40 @@
   <th>Critérios de êxito</th>
  </tr>
  <tr>
-  <td>CT-06: Verificar a funcionalidade de análise de gastos</td>
+  <td>CT-06: Verificar a funcionalidade de inserção de boletos</td>
+  <td>
+   <ul>
+    <li>RF-02 O site deve apresentar, um crud para adição de boletos, com data de vencimento, nome , tipo de gasto e valor. </li>
+  
+   </ul>
+  </td>
+  <td>Verificar se o sistema está adicionando os boletos</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Efetuar login .</li>
+    <li>Selecionar aba boletos </li>
+    <li>Inserir um cartão .</li>
+    <li>Verificar os dados que foram inseridos</li>
+        
+   </ol>
+   </td>
+  <td>O sistema deve exibir de forma correta os respectivos gastos que foram inseridos tanto para o usuário indidual quanto para os grupos de gastos.</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+ </tr>
+ <tr>
+  <td>CT-07: Verificar a funcionalidade de análise de gastos</td>
   <td>
    <ul>
      <li>RF-06 O site deve gerar um relatório apontando quais gastos ocorrem mais, de acordo com seu tipo. </li>
@@ -219,7 +244,7 @@
   <th>Critérios de êxito</th>
  </tr>
  <tr>
-  <td>CT-07: Verificar a funcionalidade de inserção de gastos dos grupos devedores</td>
+  <td>CT-08: Verificar a funcionalidade de inserção de gastos dos grupos devedores</td>
   <td>
    <ul>
      <li>RF-04 O site deve apresentar, um crud para adição de grupos de custo, nome, integrantes e contas compartilhadas. </li>
@@ -246,6 +271,42 @@
    </td>
   <td>O sistema deve exibir de forma correta todas as informações adicionadas no grupo.</td>
  </tr>
+
+
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+ </tr>
+ <tr>
+  <td>CT-09: Verificar a funcionalidade de inserção de gastos físicos </td>
+  <td>
+   <ul>
+    <li>RF-05 O site deve apresentar, um crud para adição de dinheiro físico, com data de vencimento, nome e tipo de gasto.</li>
+ 
+   </ul>
+  </td>
+  <td> Verificar se o sistema está permitindo a adição de gastos físicos, informando o tipo de gasto, valor e nome. </td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li> Efetuar login </li>
+    <li>Clicar no link gastos físicos.</li>
+    <li> Inserir dados do gasto físico </li>
+    <li> Verificar os dados que foram inseridos </li>
+    
+   </ol>
+   </td>
+  <td>O sistema deve exibir de forma correta os respectivos gastos que foram inseridos para o usuário individual.</td>
+ </tr>
+
+ 
 </table>
  
 
