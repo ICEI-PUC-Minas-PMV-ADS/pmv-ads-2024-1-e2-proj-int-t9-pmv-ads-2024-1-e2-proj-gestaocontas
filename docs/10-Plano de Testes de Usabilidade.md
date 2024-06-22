@@ -9,7 +9,6 @@
 
 ## 2. Login e Logout
 - Testar se o usuário pode fazer login com sucesso.
-- Verificar se a recuperação de senha está funcionando corretamente.
 - Testar se o usuário pode fazer logout com sucesso.
 
 ## 3. Gestão de Contas
