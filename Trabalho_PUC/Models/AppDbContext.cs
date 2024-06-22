@@ -12,5 +12,11 @@ namespace Trabalho_PUC.Models
         public DbSet<User> Users { get; set; }
 
         public DbSet<PhysicalMoney> PhysicalMoneys { get; set; }
+
+        public DbSet<Grupo> Grupos { get; set; }
+
+        public DbSet<Boletos> Boletos { get; set; }
+     
+
     }
 }

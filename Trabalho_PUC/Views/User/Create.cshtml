@@ -1,41 +1,96 @@
 ﻿@model Trabalho_PUC.Models.User
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Create User";
 }
 
-<h1>Create</h1>
+<style>
+    body {
+        background-color: #f4f4f9;
+        color: #333;
+    }
 
-<h4>User</h4>
+    h1 {
+        color: #49108B;
+    }
+
+    .card {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .btn-primary {
+        background-color: #49108B;
+        border-color: #49108B;
+    }
+
+        .btn-primary:hover {
+            background-color: #38106d;
+            border-color: #38106d;
+        }
+
+    .form-control {
+        border-color: #ccc;
+    }
+
+    .text-danger {
+        color: #dc3545;
+    }
+</style>
+
+<h1>Create User</h1>
+
 <hr />
+
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" />
-                <span asp-validation-for="Nome" class="text-danger"></span>
+    <div class="col-md-6 offset-md-3">
+        <div class="card">
+            <div class="card-body">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Nome" class="control-label">Name</label>
+                        <input asp-for="Nome" class="form-control" />
+                        <span asp-validation-for="Nome" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="CPF" class="control-label">CPF</label>
+                        <input asp-for="CPF" class="form-control" placeholder="e.g., 123.456.789-10" />
+                        <span asp-validation-for="CPF" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Senha" class="control-label">Password</label>
+                        <input asp-for="Senha" type="password" class="form-control" />
+                        <span asp-validation-for="Senha" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Perfil" class="control-label">Profile</label>
+                        <select asp-for="Perfil" class="form-control">
+                            <option value="">Select Profile</option>
+                            <option value="Admin">Admin</option>
+                            <option value="User">User</option>
+                        </select>
+                        <span asp-validation-for="Perfil" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Criar</button>
+                    </div>
+                </form>
             </div>
-            <div class="form-group">
-                <label asp-for="Senha" class="control-label"></label>
-                <input asp-for="Senha" class="form-control" />
-                <span asp-validation-for="Senha" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Perfil" class="control-label"></label>
-                <select asp-for="Perfil" class="form-control" asp-items="Html.GetEnumSelectList<Perfil>()"></select>
-                <span asp-validation-for="Perfil" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+<div class="mt-3 text-center">
+    <a asp-action="Index">Voltar a listagem</a>
 </div>
 
 @section Scripts {

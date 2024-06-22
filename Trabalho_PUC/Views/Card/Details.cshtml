@@ -4,39 +4,110 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Detalhes do Cartão</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+        }
 
-<div>
-    <h4>Card</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Digitos)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Digitos)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nome)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nome)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Vencimento)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Vencimento)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Meta)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Meta)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+        h1, h4 {
+            color: #333;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .col-sm-2 {
+            font-weight: bold;
+        }
+
+        .col-sm-2, .col-sm-10 {
+            padding: 10px;
+        }
+
+        dl {
+            width: 100%;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        dt, dd {
+            margin-bottom: 10px;
+        }
+
+        dt {
+            color: #49108B;
+        }
+
+        .action-links {
+            margin-top: 20px;
+        }
+
+            .action-links a {
+                color: #49108B;
+                text-decoration: none;
+                margin: 0 5px;
+                padding: 10px 15px;
+                border: 1px solid #49108B;
+                border-radius: 5px;
+                transition: background-color 0.3s ease, color 0.3s ease;
+            }
+
+                .action-links a:hover {
+                    background-color: #49108B;
+                    color: white;
+                }
+    </style>
+</head>
+<body>
+    <h1>Detalhes do Cartão</h1>
+
+    <div>
+        <h4>Card</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Digitos)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Digitos)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Nome)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Vencimento)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Vencimento)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Meta)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Meta)
+            </dd>
+        </dl>
+    </div>
+    <div class="action-links">
+        <a asp-action="Edit" asp-route-id="@Model?.Id">Editar</a> |
+        <a asp-action="Index">Voltar a listagem</a>
+    </div>
+</body>
+</html>

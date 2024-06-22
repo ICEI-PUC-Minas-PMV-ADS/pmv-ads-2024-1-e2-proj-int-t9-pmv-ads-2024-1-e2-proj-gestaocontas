@@ -20,7 +20,11 @@ namespace Trabalho_PUC.Models
 
             [Required(ErrorMessage = "Obrigatório informar o senha")]
             public Perfil Perfil { get; set; }
-        }
+
+        [Required]
+        [RegularExpression(@"^\d{3}\.\d{3}\.\d{3}\-\d{2}$", ErrorMessage = "CPF inválido (digite o CPF da seguinte maneira xxx.xxx.xxx-xx)")]
+        public string CPF { get; set; }
+    }
         public enum Perfil
         {
             Admin,
