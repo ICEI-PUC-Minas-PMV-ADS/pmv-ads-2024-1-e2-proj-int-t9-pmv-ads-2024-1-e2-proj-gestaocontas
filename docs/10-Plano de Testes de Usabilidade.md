@@ -4,8 +4,6 @@
 
 ## 1. Registro de Conta
 - Testar se o usuário pode se registrar com sucesso.
-- Verificar se a validação de e-mail está funcionando corretamente.
-- Testar a força da senha durante o registro.
 
 ## 2. Login e Logout
 - Testar se o usuário pode fazer login com sucesso.
