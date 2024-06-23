@@ -20,7 +20,7 @@
 - Testar se o usuário pode excluir um gasto.
 
 ## 5. Relatórios
-- Testar se o usuário pode gerar relatórios de transações.
+- Testar se o usuário pode gerar relatórios dos gastos físicos.
 - Verificar se os relatórios são precisos.
 
 ## 6. Segurança
