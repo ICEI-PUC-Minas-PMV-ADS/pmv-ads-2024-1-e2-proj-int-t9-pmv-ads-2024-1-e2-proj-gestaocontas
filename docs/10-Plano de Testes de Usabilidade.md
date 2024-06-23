@@ -15,9 +15,9 @@
 - Testar se o usuário pode excluir uma conta.
 
 ## 4. Transações
-- Testar se o usuário pode adicionar uma nova transação.
-- Verificar se o usuário pode editar uma transação.
-- Testar se o usuário pode excluir uma transação.
+- Testar se o usuário pode adicionar um novo gasto.
+- Verificar se o usuário pode editar um gasto.
+- Testar se o usuário pode excluir um gasto.
 
 ## 5. Relatórios
 - Testar se o usuário pode gerar relatórios de transações.
