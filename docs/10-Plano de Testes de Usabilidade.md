@@ -23,6 +23,3 @@
 - Testar se o usuário pode gerar relatórios dos gastos físicos.
 - Verificar se os relatórios são precisos.
 
-## 6. Segurança
-- Verificar se todas as páginas estão protegidas contra acesso não autorizado.
-- Testar se a criptografia de dados sensíveis está funcionando corretamente.
